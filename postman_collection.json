@@ -1,0 +1,32 @@
+{
+  "info": {
+    "name": "Fruits REST API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "All fruits",
+      "request": { "method": "GET", "url": "http://localhost:4000/api/fruits" }
+    },
+    {
+      "name": "Search - app",
+      "request": { "method": "GET", "url": "http://localhost:4000/api/search/app" }
+    },
+    {
+      "name": "Search - no results",
+      "request": { "method": "GET", "url": "http://localhost:4000/api/search/zzzz" }
+    },
+    {
+      "name": "Calories - 25",
+      "request": { "method": "GET", "url": "http://localhost:4000/api/calories/25" }
+    },
+    {
+      "name": "Calories - no results",
+      "request": { "method": "GET", "url": "http://localhost:4000/api/calories/0" }
+    },
+    {
+      "name": "Calories - invalid value",
+      "request": { "method": "GET", "url": "http://localhost:4000/api/calories/abc" }
+    }
+  ]
+}
