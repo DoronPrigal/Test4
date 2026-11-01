@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# React / Node
+node_modules/
+npm-debug.log*
+
+# Docker
+mysql_data/
+
+# Exam material (not part of the public repository)
+prompt.md
+*.pdf
+Personal Use Only/
+
+# Submission archive
+*.zip
